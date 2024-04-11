@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: >
+  Template to deploy a Lambda which is triggered by an S3 event from a raw data bucket and processes data into an existing clean data bucket.
+Resources:
+  LambdaFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      Runtime: python3.8
+      Handler: lambda-function.lambda_handler
+      Role: arn:aws:iam::339712886763:role/lambda-execution-role
+      Code:
+        S3Bucket: brewtopia-deploy-bucket
+        S3Key: lambda/lambda-cleanse.zip
+  S3Bucket:
+    Type: 'AWS::S3::Bucket'
+    Properties:
+      BucketName: brewtopia-clean-bucket-cf
+  S3BucketPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      Action: lambda:InvokeFunction
+      FunctionName: !Ref LambdaFunction
+      Principal: s3.amazonaws.com
