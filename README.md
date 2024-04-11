@@ -46,11 +46,9 @@
 
 ## Team Members AKA The Fabulous 5
 
-### Ali
-### Anuja
-### Imran
-### Viktoriia
-### Zakariya
+
+### Imran (Scrum Master)
+
 
 ## Ways of working
 
@@ -78,46 +76,11 @@ Lambda is a serverless, on demand computing service by AWS that lets us run code
 
 Grafana is data visualisation platform with high accessibility and a wide range of tools including monitoring. 
 
-## Links
-### *Trello*
-https://trello.com/b/8qd8uBqc/delon13-brewtopia
-
-### *Approach*
-https://app.diagrams.net/#G1L90Xq0Qra9af8MNIzysGYQ5Tem-6lJ19
-
-
-### *MoSCoW*
-https://jamboard.google.com/d/1lfcg4yC64HvoEqiZdmVjs5aEw4mMryZbiFqS-d2aRJY/viewer?f=0
-
-### *Retros*
-https://jamboard.google.com/d/10xM_kCaOI-Mo3sQPFuQYv9-t0rugKKiXMNtTY3hsclM/viewer?f=0
-
-### *Repo Folder Structure*
-https://drive.google.com/file/d/1yL3UAiFrp8wsOMWWSF7qH3xg2KVDSpgR/view?usp=sharing
-
-### Sprint 1 Presentation
-https://docs.google.com/presentation/d/1hnGWYYAVcQSzTpPYid19KIgM4CNLXwXi4TLHa6ru_gM/edit#slide=id.p
-
-### Sprint 2 Presentation
-https://docs.google.com/presentation/d/1zS8KLAQ4TsysCTca-VdoBHktXn6DTQuv8ZyIU_VZPGU/edit#slide=id.p
-
-### Sprint 3 Presentation
-https://docs.google.com/presentation/d/1Ci5Bn9TKvlnz_AhTbytJyhK6dt3SezXjrztiHoX6DME/edit#slide=id.p
-
-### Sprint 4 Presentation
-https://docs.google.com/presentation/d/1Kx3pCmLHf6PiN06UKhTMpZ4MnlmyQ__mNr7B2AneZBU/edit?usp=sharing
-
-### Final Presentation
-https://docs.google.com/presentation/d/1Jp86CMu54qzhgpmJ4-z8bD3wjgdBZ2w_lWnAJzwlHTI/edit?usp=sharing
-
-
 # How does it work?
 
 ## *ETL Pipeline Architecture*
 
 ![alt text](<ETL Pipeline BrewTopia.png>)
-
-https://drive.google.com/file/d/1-oOttZTz0iaNvT4--KTDawjkhTo2mv2A/view?usp=sharing
 
 We used an ETL pipeline for our application as it was cost effective and ensured data protection.
 The process consisted of cleaning and organising raw data to prepare it for storage and data analytics.
